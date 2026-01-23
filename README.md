@@ -1,3 +1,3 @@
-# gwgraphs
+# K-Nearest Neighbors in Gromov-Wasserstein Space
 
-This repository hosts the code developed for the prepation of my thesis, "Application of the Gromov-Wasserstein Framework to Graph Classification Problems."
+This repository hosts the code prepared for my paper "K-Nearest Neighbors in Gromov-Wasserstein Space."
