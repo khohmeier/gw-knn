@@ -1,0 +1,199 @@
+2025-11-18 21:29:59,885 INFO ############ Begin nested CV ############
+2025-11-18 21:29:59,885 INFO Inner : 10
+2025-11-18 21:29:59,886 INFO Outer : 10
+2025-11-18 21:29:59,886 INFO params : [{'C': [1e-05, 5.1794746792312125e-05, 0.0002682695795279727, 0.0013894954943731374, 0.0071968567300115215, 0.037275937203149416, 0.19306977288832497, 1.0, 5.1794746792312125, 26.826957952797272, 138.9495494373139, 719.6856730011528, 3727.593720314938, 19306.977288832535, 100000.0], 'kernel_params': [[{'name': 'propagation', 't_max': 1, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 3, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 5, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 8, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 10, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], [{'name': 'propagation', 't_max': 20, 'w': 0.0001, 'M': 'TV'}]], 'normalize': [True]}]
+2025-11-18 21:29:59,886 INFO Begin precomputing all Gram matrices
+2025-11-18 21:29:59,886 INFO 7 matrices to fit...
+2025-11-18 21:30:41,739 INFO ...Done
+2025-11-18 21:30:41,883 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,023 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,161 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,300 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,438 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,577 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,715 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,853 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:42,992 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,130 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,130 INFO ############ One inner CV Done ############
+2025-11-18 21:30:43,131 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:43,131 INFO Best inner score : 0.793993993993994
+2025-11-18 21:30:43,133 INFO Outer accuracy 0.8536585365853658
+2025-11-18 21:30:43,133 INFO Outer F1 weighted 0.804713249835201
+2025-11-18 21:30:43,133 INFO By-class accuracies:
+2025-11-18 21:30:43,133 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:43,133 INFO   Class 1: Accuracy=0.1429
+2025-11-18 21:30:43,133 INFO ############ One outer Done ############
+2025-11-18 21:30:43,271 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,408 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,545 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,682 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,819 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:43,955 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,092 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,230 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,367 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,503 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,503 INFO ############ One inner CV Done ############
+2025-11-18 21:30:44,504 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:44,504 INFO Best inner score : 0.805105105105105
+2025-11-18 21:30:44,506 INFO Outer accuracy 0.7560975609756098
+2025-11-18 21:30:44,506 INFO Outer F1 weighted 0.6510840108401085
+2025-11-18 21:30:44,507 INFO By-class accuracies:
+2025-11-18 21:30:44,507 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:44,507 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:44,507 INFO ############ One outer Done ############
+2025-11-18 21:30:44,644 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,786 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:44,929 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,070 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,209 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,352 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,495 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,633 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,776 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,918 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:45,918 INFO ############ One inner CV Done ############
+2025-11-18 21:30:45,918 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:45,918 INFO Best inner score : 0.7967717717717717
+2025-11-18 21:30:45,921 INFO Outer accuracy 0.7317073170731707
+2025-11-18 21:30:45,921 INFO Outer F1 weighted 0.6183442116111302
+2025-11-18 21:30:45,921 INFO By-class accuracies:
+2025-11-18 21:30:45,922 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:45,922 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:45,922 INFO ############ One outer Done ############
+2025-11-18 21:30:46,066 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,207 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,345 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,483 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,620 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,758 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:46,895 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,033 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,172 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,309 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,309 INFO ############ One inner CV Done ############
+2025-11-18 21:30:47,310 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:47,310 INFO Best inner score : 0.782957957957958
+2025-11-18 21:30:47,312 INFO Outer accuracy 0.926829268292683
+2025-11-18 21:30:47,312 INFO Outer F1 weighted 0.9063034526449161
+2025-11-18 21:30:47,312 INFO By-class accuracies:
+2025-11-18 21:30:47,312 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:47,312 INFO   Class 1: Accuracy=0.2500
+2025-11-18 21:30:47,312 INFO ############ One outer Done ############
+2025-11-18 21:30:47,451 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,592 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,735 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:47,878 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,020 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,163 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,305 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,447 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,590 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,732 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:48,732 INFO ############ One inner CV Done ############
+2025-11-18 21:30:48,732 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:48,732 INFO Best inner score : 0.7885885885885886
+2025-11-18 21:30:48,735 INFO Outer accuracy 0.9024390243902439
+2025-11-18 21:30:48,735 INFO Outer F1 weighted 0.8561601000625391
+2025-11-18 21:30:48,735 INFO By-class accuracies:
+2025-11-18 21:30:48,735 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:48,735 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:48,735 INFO ############ One outer Done ############
+2025-11-18 21:30:48,873 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,011 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,148 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,286 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,422 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,559 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,696 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,832 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:49,969 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,106 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,106 INFO ############ One inner CV Done ############
+2025-11-18 21:30:50,106 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:50,106 INFO Best inner score : 0.8022522522522524
+2025-11-18 21:30:50,109 INFO Outer accuracy 0.7804878048780488
+2025-11-18 21:30:50,109 INFO Outer F1 weighted 0.6842632809889743
+2025-11-18 21:30:50,109 INFO By-class accuracies:
+2025-11-18 21:30:50,109 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:50,109 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:50,109 INFO ############ One outer Done ############
+2025-11-18 21:30:50,249 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,389 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,528 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,667 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,805 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:50,943 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,082 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,220 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,358 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,498 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,498 INFO ############ One inner CV Done ############
+2025-11-18 21:30:51,498 INFO Best params : {'C': 719.6856730011528, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:51,498 INFO Best inner score : 0.8023273273273274
+2025-11-18 21:30:51,501 INFO Outer accuracy 0.7804878048780488
+2025-11-18 21:30:51,501 INFO Outer F1 weighted 0.6842632809889743
+2025-11-18 21:30:51,501 INFO By-class accuracies:
+2025-11-18 21:30:51,501 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:51,501 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:51,501 INFO ############ One outer Done ############
+2025-11-18 21:30:51,638 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,774 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:51,911 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,047 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,183 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,320 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,457 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,594 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,730 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,867 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:52,867 INFO ############ One inner CV Done ############
+2025-11-18 21:30:52,868 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 10, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:52,868 INFO Best inner score : 0.7968468468468468
+2025-11-18 21:30:52,870 INFO Outer accuracy 0.7317073170731707
+2025-11-18 21:30:52,870 INFO Outer F1 weighted 0.6183442116111302
+2025-11-18 21:30:52,870 INFO By-class accuracies:
+2025-11-18 21:30:52,870 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:52,870 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:52,870 INFO ############ One outer Done ############
+2025-11-18 21:30:53,008 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,146 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,285 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,424 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,563 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,701 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,840 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:53,978 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,117 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,256 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,256 INFO ############ One inner CV Done ############
+2025-11-18 21:30:54,256 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:54,257 INFO Best inner score : 0.7967717717717717
+2025-11-18 21:30:54,259 INFO Outer accuracy 0.8292682926829268
+2025-11-18 21:30:54,259 INFO Outer F1 weighted 0.751869918699187
+2025-11-18 21:30:54,259 INFO By-class accuracies:
+2025-11-18 21:30:54,259 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:54,259 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:54,259 INFO ############ One outer Done ############
+2025-11-18 21:30:54,396 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,533 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,672 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,812 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:54,948 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,084 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,220 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,356 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,492 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,628 INFO ############ All params Done for one inner cut ############
+2025-11-18 21:30:55,628 INFO ############ One inner CV Done ############
+2025-11-18 21:30:55,628 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'propagation', 't_max': 15, 'w': 0.0001, 'M': 'TV'}], 'normalize': True}
+2025-11-18 21:30:55,628 INFO Best inner score : 0.8077327327327326
+2025-11-18 21:30:55,631 INFO Outer accuracy 0.7317073170731707
+2025-11-18 21:30:55,631 INFO Outer F1 weighted 0.6183442116111302
+2025-11-18 21:30:55,631 INFO By-class accuracies:
+2025-11-18 21:30:55,631 INFO   Class -1: Accuracy=1.0000
+2025-11-18 21:30:55,631 INFO   Class 1: Accuracy=0.0000
+2025-11-18 21:30:55,631 INFO ############ One outer Done ############
+2025-11-18 21:30:55,631 INFO Nested mean score 0.802439024390244
+2025-11-18 21:30:55,631 INFO Nested std score 0.0685101068545763

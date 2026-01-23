@@ -1,0 +1,1736 @@
+2026-01-12 17:10:37,126 INFO ############ Begin nested CV for Multiclass Classification ############
+2026-01-12 17:10:37,126 INFO Inner : 5
+2026-01-12 17:10:37,126 INFO Outer : 5
+2026-01-12 17:10:37,126 INFO params : [{'C': [1e-05, 5.1794746792312125e-05, 0.0002682695795279727, 0.0013894954943731374, 0.0071968567300115215, 0.037275937203149416, 0.19306977288832497, 1.0, 5.1794746792312125, 26.826957952797272, 138.9495494373139, 719.6856730011528, 3727.593720314938, 19306.977288832535, 100000.0], 'kernel_params': [[{'name': 'graph_hopper', 'kernel_type': 'linear'}]], 'normalize': [True]}]
+2026-01-12 17:10:37,126 INFO Number of classes: 10
+2026-01-12 17:10:37,126 INFO Classes: ['A.1' 'A.13' 'A.15' 'A.24' 'A.26' 'E.2' 'I' 'M.1' 'M.5' 'N.1']
+2026-01-12 17:10:37,126 INFO Begin precomputing all Gram matrices
+2026-01-12 17:10:37,126 INFO 1 matrices to fit...
+2026-01-12 17:10:55,907 INFO ...Done
+2026-01-12 17:10:55,911 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,911 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,913 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,913 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,916 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,916 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,918 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,919 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,921 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,921 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,924 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,924 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,925 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,925 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,926 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,926 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,928 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,928 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,929 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,929 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,930 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,930 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,932 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,932 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,933 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,933 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,935 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,935 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,938 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,938 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,941 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,941 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,944 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,944 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,945 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,945 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,946 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,946 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,947 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,947 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,949 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,949 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,950 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,950 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,951 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,951 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,953 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,953 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,955 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,955 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,957 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,958 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,960 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,960 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,963 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,963 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,965 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,965 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,966 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,966 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,967 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,968 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,969 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,969 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,970 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,970 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,971 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,971 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,973 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,973 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,974 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,974 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,977 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,977 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,980 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,980 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,982 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,982 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,984 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,985 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,986 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,986 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,987 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,987 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,988 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,988 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,990 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,990 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,991 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,991 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,992 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,993 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,994 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,994 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,996 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,997 INFO Params set successfully. GK created: True
+2026-01-12 17:10:55,999 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:55,999 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,002 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,002 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,005 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,005 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,008 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,008 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,010 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,010 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,013 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,013 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,015 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,015 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,016 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,016 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,018 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,018 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,019 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,019 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,020 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,020 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,022 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,022 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,023 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,023 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,025 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,025 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,028 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,028 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,030 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,030 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,033 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,033 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,035 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,035 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,036 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,036 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,038 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,038 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,039 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,039 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,040 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,040 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,042 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,042 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,043 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,043 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,045 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,045 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,048 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,048 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,050 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,050 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,053 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:10:56,053 INFO ############ One inner CV Done ############
+2026-01-12 17:10:56,053 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,053 INFO Best inner score : 0.9425253991291728
+2026-01-12 17:10:56,060 INFO Outer accuracy: 0.9
+2026-01-12 17:10:56,060 INFO Outer F1 (macro): 0.8323809523809522
+2026-01-12 17:10:56,060 INFO Outer F1 (weighted): 0.8755555555555555
+2026-01-12 17:10:56,060 INFO By-class accuracies:
+2026-01-12 17:10:56,060 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class A.13: Accuracy=0.0000
+2026-01-12 17:10:56,060 INFO   Class A.15: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class A.24: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class A.26: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class I: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class M.1: Accuracy=0.8571
+2026-01-12 17:10:56,060 INFO   Class M.5: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO   Class N.1: Accuracy=1.0000
+2026-01-12 17:10:56,060 INFO Classification Report:
+2026-01-12 17:10:56,060 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 9.0}, 'A.13': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, 'A.15': {'precision': 0.6666666666666666, 'recall': 1.0, 'f1-score': 0.8, 'support': 2.0}, 'A.24': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'A.26': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'I': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1.0}, 'M.1': {'precision': 0.8571428571428571, 'recall': 0.8571428571428571, 'f1-score': 0.8571428571428571, 'support': 7.0}, 'M.5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'N.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'accuracy': 0.9, 'macro avg': {'precision': 0.8023809523809524, 'recall': 0.8857142857142858, 'f1-score': 0.8323809523809522, 'support': 30.0}, 'weighted avg': {'precision': 0.861111111111111, 'recall': 0.9, 'f1-score': 0.8755555555555555, 'support': 30.0}}
+2026-01-12 17:10:56,060 INFO ############ One outer Done ############
+2026-01-12 17:10:56,061 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,061 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,062 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,062 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,063 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,063 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,065 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,065 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,068 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,068 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,071 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,071 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,073 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,074 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,076 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,076 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,077 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,077 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,078 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,078 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,079 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,080 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,081 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,081 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,082 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,082 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,083 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,083 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,085 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,085 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,087 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,088 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,090 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,090 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,093 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,093 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,095 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,095 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,097 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,097 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,098 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,098 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,099 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,099 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,100 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,101 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,102 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,102 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,103 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,103 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,104 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,104 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,107 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,107 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,109 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,109 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,112 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,112 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,115 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,115 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,118 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,118 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,122 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,122 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,125 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,125 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,130 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,130 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,132 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,132 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,134 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,134 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,135 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,135 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,136 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,136 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,138 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,138 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,139 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,139 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,140 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,140 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,142 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,142 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,143 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,143 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,144 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,144 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,147 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,147 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,149 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,149 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,150 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,150 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,152 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,152 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,153 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,153 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,154 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,154 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,156 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,156 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,159 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,159 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,161 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,161 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,162 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,162 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,164 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,164 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,165 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,165 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,166 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,166 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,167 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,167 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,172 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,172 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,176 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,176 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,177 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,177 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,179 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,179 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,180 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,180 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,181 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,181 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,182 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,182 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,183 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,183 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,185 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,185 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,186 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,186 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,187 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,187 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,188 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,188 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,190 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,190 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,191 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,191 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,192 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,193 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,194 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,194 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,195 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,195 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,196 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:10:56,196 INFO ############ One inner CV Done ############
+2026-01-12 17:10:56,196 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,196 INFO Best inner score : 0.950145137880987
+2026-01-12 17:10:56,202 INFO Outer accuracy: 0.9666666666666667
+2026-01-12 17:10:56,202 INFO Outer F1 (macro): 0.9725274725274725
+2026-01-12 17:10:56,202 INFO Outer F1 (weighted): 0.9655677655677656
+2026-01-12 17:10:56,202 INFO By-class accuracies:
+2026-01-12 17:10:56,202 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class A.24: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class A.26: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class I: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class M.1: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class M.5: Accuracy=1.0000
+2026-01-12 17:10:56,202 INFO   Class N.1: Accuracy=0.7500
+2026-01-12 17:10:56,202 INFO Classification Report:
+2026-01-12 17:10:56,202 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 6.0}, 'A.24': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'A.26': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'I': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'M.1': {'precision': 0.8571428571428571, 'recall': 1.0, 'f1-score': 0.9230769230769231, 'support': 6.0}, 'M.5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'N.1': {'precision': 1.0, 'recall': 0.75, 'f1-score': 0.8571428571428571, 'support': 4.0}, 'accuracy': 0.9666666666666667, 'macro avg': {'precision': 0.9821428571428572, 'recall': 0.96875, 'f1-score': 0.9725274725274725, 'support': 30.0}, 'weighted avg': {'precision': 0.9714285714285714, 'recall': 0.9666666666666667, 'f1-score': 0.9655677655677656, 'support': 30.0}}
+2026-01-12 17:10:56,202 INFO ############ One outer Done ############
+2026-01-12 17:10:56,203 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,203 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,204 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,204 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,205 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,205 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,206 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,207 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,208 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,208 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,209 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,209 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,210 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,210 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,211 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,211 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,213 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,213 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,214 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,214 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,215 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,215 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,217 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,217 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,218 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,218 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,219 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,219 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,220 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,221 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,222 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,222 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,223 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,223 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,224 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,224 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,225 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,225 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,227 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,227 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,228 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,228 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,229 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,229 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,230 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,230 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,231 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,231 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,233 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,233 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,234 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,234 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,235 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,235 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,236 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,237 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,238 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,238 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,239 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,239 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,240 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,240 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,242 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,242 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,243 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,243 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,244 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,244 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,245 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,245 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,246 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,246 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,248 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,248 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,249 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,249 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,250 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,250 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,251 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,251 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,252 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,252 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,254 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,254 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,255 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,255 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,256 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,256 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,257 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,257 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,259 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,259 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,260 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,260 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,261 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,261 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,262 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,262 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,263 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,263 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,265 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,265 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,266 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,266 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,267 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,267 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,268 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,268 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,270 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,270 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,271 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,271 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,272 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,272 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,273 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,273 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,275 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,275 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,276 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,276 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,277 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,277 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,278 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,278 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,280 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,280 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,281 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,281 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,282 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,282 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,283 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,283 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,284 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,284 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,285 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,286 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,287 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,287 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,288 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,288 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,289 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,289 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,290 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,290 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,292 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,292 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,293 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,293 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,294 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,294 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,295 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:10:56,295 INFO ############ One inner CV Done ############
+2026-01-12 17:10:56,295 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,295 INFO Best inner score : 0.9425253991291728
+2026-01-12 17:10:56,301 INFO Outer accuracy: 1.0
+2026-01-12 17:10:56,301 INFO Outer F1 (macro): 1.0
+2026-01-12 17:10:56,301 INFO Outer F1 (weighted): 1.0
+2026-01-12 17:10:56,301 INFO By-class accuracies:
+2026-01-12 17:10:56,301 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class A.13: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class A.15: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class A.24: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class A.26: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class I: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class M.1: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO   Class M.5: Accuracy=1.0000
+2026-01-12 17:10:56,301 INFO Classification Report:
+2026-01-12 17:10:56,301 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, 'A.13': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'A.15': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'A.24': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'A.26': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'I': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'M.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 7.0}, 'M.5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}}
+2026-01-12 17:10:56,301 INFO ############ One outer Done ############
+2026-01-12 17:10:56,301 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,302 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,303 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,303 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,304 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,304 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,305 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,305 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,306 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,306 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,307 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,307 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,309 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,309 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,310 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,310 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,311 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,311 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,312 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,312 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,313 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,314 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,315 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,315 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,316 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,316 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,317 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,317 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,318 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,318 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,320 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,320 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,321 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,321 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,322 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,322 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,323 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,323 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,324 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,324 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,325 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,326 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,327 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,327 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,328 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,328 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,329 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,329 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,330 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,330 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,332 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,332 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,333 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,333 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,334 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,334 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,335 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,335 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,336 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,336 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,338 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,338 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,339 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,339 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,340 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,340 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,341 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,341 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,342 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,342 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,344 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,344 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,345 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,345 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,346 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,346 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,347 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,347 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,348 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,348 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,349 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,350 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,351 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,351 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,352 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,352 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,353 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,353 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,354 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,354 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,356 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,356 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,357 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,357 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,358 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,358 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,359 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,359 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,360 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,360 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,362 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,362 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,363 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,363 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,364 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,364 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,365 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,365 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,366 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,366 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,368 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,368 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,369 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,369 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,370 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,370 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,371 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,371 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,372 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,373 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,374 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,374 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,375 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,375 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,376 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,376 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,377 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,377 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,378 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,378 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,380 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,380 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,381 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,381 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,382 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,382 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,383 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,383 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,384 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,384 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,386 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,386 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,387 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,387 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,388 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,388 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,389 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,389 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,390 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,390 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,392 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:10:56,392 INFO ############ One inner CV Done ############
+2026-01-12 17:10:56,392 INFO Best params : {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,392 INFO Best inner score : 0.9464441219158202
+2026-01-12 17:10:56,397 INFO Outer accuracy: 0.9666666666666667
+2026-01-12 17:10:56,397 INFO Outer F1 (macro): 0.8518518518518517
+2026-01-12 17:10:56,397 INFO Outer F1 (weighted): 0.9555555555555555
+2026-01-12 17:10:56,397 INFO By-class accuracies:
+2026-01-12 17:10:56,397 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class A.13: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class A.15: Accuracy=0.0000
+2026-01-12 17:10:56,397 INFO   Class A.24: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class A.26: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class I: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class M.1: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class M.5: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO   Class N.1: Accuracy=1.0000
+2026-01-12 17:10:56,397 INFO Classification Report:
+2026-01-12 17:10:56,397 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 8.0}, 'A.13': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1.0}, 'A.15': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, 'A.24': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'A.26': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'I': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'M.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 8.0}, 'M.5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'N.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'accuracy': 0.9666666666666667, 'macro avg': {'precision': 0.8333333333333334, 'recall': 0.8888888888888888, 'f1-score': 0.8518518518518517, 'support': 30.0}, 'weighted avg': {'precision': 0.95, 'recall': 0.9666666666666667, 'f1-score': 0.9555555555555555, 'support': 30.0}}
+2026-01-12 17:10:56,397 INFO ############ One outer Done ############
+2026-01-12 17:10:56,398 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,398 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,399 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,399 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,400 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,400 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,401 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,401 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,403 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,403 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,404 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,404 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,405 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,405 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,406 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,406 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,408 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,408 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,409 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,409 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,410 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,410 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,411 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,411 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,412 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,412 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,414 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,414 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,415 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,415 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,416 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,416 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,417 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,417 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,419 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,419 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,420 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,420 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,421 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,421 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,422 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,422 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,424 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,424 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,425 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,425 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,426 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,426 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,427 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,427 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,428 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,428 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,430 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,430 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,431 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,431 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,432 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,432 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,433 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,433 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,435 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,435 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,436 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,436 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,437 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,437 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,438 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,438 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,439 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,439 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,441 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,441 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,442 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,442 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,443 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,443 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,444 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,444 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,445 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,445 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,447 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,447 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,448 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,448 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,449 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,449 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,450 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,450 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,451 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,452 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,453 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,453 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,454 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,454 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,455 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,455 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,456 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,456 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,457 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,457 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,459 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,459 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,460 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,460 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,461 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,461 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,462 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,462 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,463 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,463 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,465 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,465 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,466 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,466 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,467 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,467 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,468 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,468 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,470 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,470 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,471 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,471 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,472 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,472 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,473 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,473 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,474 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,474 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,475 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,476 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,477 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,477 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,478 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,478 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,479 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,479 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,480 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,480 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,481 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,482 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,483 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,483 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,484 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,484 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,485 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,485 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,486 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,487 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,488 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,488 INFO Params set successfully. GK created: True
+2026-01-12 17:10:56,489 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:10:56,489 INFO ############ One inner CV Done ############
+2026-01-12 17:10:56,489 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:10:56,489 INFO Best inner score : 0.938824383164006
+2026-01-12 17:10:56,495 INFO Outer accuracy: 0.9666666666666667
+2026-01-12 17:10:56,495 INFO Outer F1 (macro): 0.9333333333333332
+2026-01-12 17:10:56,495 INFO Outer F1 (weighted): 0.9666666666666667
+2026-01-12 17:10:56,495 INFO By-class accuracies:
+2026-01-12 17:10:56,495 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class A.13: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class A.15: Accuracy=0.5000
+2026-01-12 17:10:56,495 INFO   Class A.24: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class A.26: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class I: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class M.1: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class M.5: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO   Class N.1: Accuracy=1.0000
+2026-01-12 17:10:56,495 INFO Classification Report:
+2026-01-12 17:10:56,495 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 8.0}, 'A.13': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1.0}, 'A.15': {'precision': 1.0, 'recall': 0.5, 'f1-score': 0.6666666666666666, 'support': 2.0}, 'A.24': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'A.26': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'I': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'M.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'M.5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'N.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'accuracy': 0.9666666666666667, 'macro avg': {'precision': 0.95, 'recall': 0.95, 'f1-score': 0.9333333333333332, 'support': 30.0}, 'weighted avg': {'precision': 0.9833333333333333, 'recall': 0.9666666666666667, 'f1-score': 0.9666666666666667, 'support': 30.0}}
+2026-01-12 17:10:56,495 INFO ############ One outer Done ############
+2026-01-12 17:10:56,495 INFO Nested mean accuracy: 0.96
+2026-01-12 17:10:56,495 INFO Nested std accuracy: 0.03265986323710903
+2026-01-12 17:10:56,495 INFO Nested mean F1 (macro): 0.9180187220187219
+2026-01-12 17:10:56,495 INFO Nested std F1 (macro): 0.06578533793695612
+2026-01-12 17:10:56,495 INFO Nested mean F1 (weighted): 0.9526691086691088
+2026-01-12 17:10:56,495 INFO Nested std F1 (weighted): 0.04136992120680428
+2026-01-12 17:28:02,091 INFO ############ Begin nested CV for Multiclass Classification ############
+2026-01-12 17:28:02,091 INFO Inner : 5
+2026-01-12 17:28:02,091 INFO Outer : 5
+2026-01-12 17:28:02,091 INFO params : [{'C': [1e-05, 5.1794746792312125e-05, 0.0002682695795279727, 0.0013894954943731374, 0.0071968567300115215, 0.037275937203149416, 0.19306977288832497, 1.0, 5.1794746792312125, 26.826957952797272, 138.9495494373139, 719.6856730011528, 3727.593720314938, 19306.977288832535, 100000.0], 'kernel_params': [[{'name': 'graph_hopper', 'kernel_type': 'linear'}]], 'normalize': [True]}]
+2026-01-12 17:28:02,091 INFO Number of classes: 11
+2026-01-12 17:28:02,091 INFO Classes: ['A.1' 'B.1' 'B.2' 'B.4' 'C' 'D.1' 'E.1' 'E.2' 'F' 'J.1' 'K']
+2026-01-12 17:28:02,091 INFO Begin precomputing all Gram matrices
+2026-01-12 17:28:02,091 INFO 1 matrices to fit...
+2026-01-12 17:28:33,493 INFO ...Done
+2026-01-12 17:28:33,498 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,498 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,503 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,503 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,506 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,506 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,508 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,509 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,511 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,511 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,513 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,513 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,517 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,517 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,522 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,522 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,525 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,525 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,527 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,527 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,529 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,529 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,532 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,532 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,534 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,534 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,540 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,540 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,544 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,544 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,547 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,547 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,549 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,549 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,552 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,552 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,554 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,554 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,557 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,557 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,562 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,562 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,566 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,566 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,568 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,568 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,570 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,570 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,572 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,572 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,574 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,574 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,579 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,579 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,584 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,584 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,588 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,588 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,591 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,591 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,596 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,596 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,600 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,600 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,605 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,605 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,608 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,608 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,610 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,610 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,613 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,613 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,615 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,615 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,617 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,617 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,623 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,623 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,627 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,627 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,629 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,629 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,632 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,632 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,634 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,634 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,637 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,637 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,642 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,642 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,648 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,648 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,650 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,650 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,653 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,653 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,655 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,655 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,657 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,657 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,661 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,661 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,665 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,665 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,669 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,669 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,671 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,671 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,673 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,673 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,675 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,675 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,678 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,678 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,682 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,682 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,687 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,687 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,691 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,691 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,695 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,695 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,697 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,697 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,700 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,700 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,705 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,705 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,709 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,709 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,711 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,712 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,714 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,715 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,719 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,719 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,730 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,730 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,735 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,735 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,738 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,738 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,740 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,740 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,743 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,743 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,745 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,745 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,749 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,749 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,753 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:28:33,753 INFO ############ One inner CV Done ############
+2026-01-12 17:28:33,754 INFO Best params : {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,754 INFO Best inner score : 0.9493021746186303
+2026-01-12 17:28:33,765 INFO Outer accuracy: 1.0
+2026-01-12 17:28:33,765 INFO Outer F1 (macro): 1.0
+2026-01-12 17:28:33,765 INFO Outer F1 (weighted): 1.0
+2026-01-12 17:28:33,765 INFO By-class accuracies:
+2026-01-12 17:28:33,765 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class B.1: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class B.2: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class C: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class D.1: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class E.1: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:28:33,765 INFO   Class F: Accuracy=1.0000
+2026-01-12 17:28:33,766 INFO   Class J.1: Accuracy=1.0000
+2026-01-12 17:28:33,766 INFO Classification Report:
+2026-01-12 17:28:33,766 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'B.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 14.0}, 'B.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'C': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'D.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'E.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 7.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'F': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'J.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 44.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 44.0}}
+2026-01-12 17:28:33,766 INFO ############ One outer Done ############
+2026-01-12 17:28:33,767 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,767 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,769 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,769 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,771 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,771 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,773 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,773 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,775 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,775 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,777 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,777 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,779 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,779 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,781 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,781 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,783 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,783 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,785 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,785 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,787 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,787 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,789 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,790 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,792 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,792 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,795 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,795 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,798 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,798 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,801 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,801 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,803 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,803 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,805 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,805 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,807 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,807 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,809 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,809 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,811 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,812 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,813 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,813 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,815 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,815 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,817 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,817 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,819 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,819 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,821 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,822 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,824 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,824 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,826 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,826 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,828 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,828 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,831 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,831 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,834 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,834 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,836 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,836 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,838 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,838 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,840 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,840 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,842 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,842 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,844 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,844 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,846 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,846 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,848 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,848 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,850 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,850 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,852 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,852 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,854 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,854 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,856 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,856 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,858 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,858 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,860 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,860 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,863 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,863 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,865 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,865 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,867 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,867 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,869 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,869 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,871 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,871 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,873 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,873 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,875 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,875 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,877 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,877 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,879 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,879 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,881 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,881 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,883 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,883 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,885 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,885 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,887 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,888 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,890 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,890 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,892 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,892 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,895 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,895 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,897 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,898 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,900 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,900 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,901 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,902 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,903 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,904 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,906 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,906 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,908 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,908 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,910 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,910 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,911 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,911 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,913 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,913 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,915 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,915 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,917 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,917 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,919 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,920 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,922 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,922 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,924 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,924 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,926 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,926 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,929 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:28:33,929 INFO ############ One inner CV Done ############
+2026-01-12 17:28:33,929 INFO Best params : {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,929 INFO Best inner score : 0.9517364492048037
+2026-01-12 17:28:33,936 INFO Outer accuracy: 0.9772727272727273
+2026-01-12 17:28:33,936 INFO Outer F1 (macro): 0.976911976911977
+2026-01-12 17:28:33,936 INFO Outer F1 (weighted): 0.9776334776334775
+2026-01-12 17:28:33,936 INFO By-class accuracies:
+2026-01-12 17:28:33,936 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class B.1: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class B.2: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class B.4: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class C: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class D.1: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class E.1: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class F: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO   Class J.1: Accuracy=0.8000
+2026-01-12 17:28:33,936 INFO   Class K: Accuracy=1.0000
+2026-01-12 17:28:33,936 INFO Classification Report:
+2026-01-12 17:28:33,936 INFO {'A.1': {'precision': 0.75, 'recall': 1.0, 'f1-score': 0.8571428571428571, 'support': 3.0}, 'B.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 7.0}, 'B.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'B.4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'C': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 8.0}, 'D.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'E.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 9.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'F': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'J.1': {'precision': 1.0, 'recall': 0.8, 'f1-score': 0.8888888888888888, 'support': 5.0}, 'K': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'accuracy': 0.9772727272727273, 'macro avg': {'precision': 0.9772727272727273, 'recall': 0.9818181818181819, 'f1-score': 0.976911976911977, 'support': 44.0}, 'weighted avg': {'precision': 0.9829545454545454, 'recall': 0.9772727272727273, 'f1-score': 0.9776334776334775, 'support': 44.0}}
+2026-01-12 17:28:33,936 INFO ############ One outer Done ############
+2026-01-12 17:28:33,937 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,937 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,939 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,939 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,941 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,941 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,943 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,943 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,945 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,945 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,947 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,947 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,949 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,949 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,951 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,951 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,953 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,953 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,955 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,955 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,957 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,957 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,959 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,959 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,961 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,961 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,963 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,963 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,966 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,966 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,969 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,969 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,971 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,971 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,973 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,973 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,975 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,975 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,977 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,977 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,979 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,979 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,981 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,981 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,983 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,983 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,985 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,985 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,987 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,987 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,989 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,989 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,991 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,991 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,993 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,993 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,996 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,996 INFO Params set successfully. GK created: True
+2026-01-12 17:28:33,998 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:33,998 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,001 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,001 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,003 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,003 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,005 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,005 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,007 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,007 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,009 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,009 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,011 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,011 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,013 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,013 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,015 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,015 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,017 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,017 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,019 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,019 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,021 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,021 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,023 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,023 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,025 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,025 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,027 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,027 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,030 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,030 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,033 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,033 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,035 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,035 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,037 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,037 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,039 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,039 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,041 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,041 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,043 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,043 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,045 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,045 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,047 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,047 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,049 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,049 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,051 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,051 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,053 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,053 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,055 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,055 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,057 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,058 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,060 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,060 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,063 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,063 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,065 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,065 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,067 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,067 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,069 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,070 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,071 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,072 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,074 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,074 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,076 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,076 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,078 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,078 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,080 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,080 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,081 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,082 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,083 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,083 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,085 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,085 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,087 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,087 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,089 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,089 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,091 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,091 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,094 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,094 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,096 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:28:34,096 INFO ############ One inner CV Done ############
+2026-01-12 17:28:34,096 INFO Best params : {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,096 INFO Best inner score : 0.9415449529373581
+2026-01-12 17:28:34,105 INFO Outer accuracy: 0.9545454545454546
+2026-01-12 17:28:34,105 INFO Outer F1 (macro): 0.9583333333333333
+2026-01-12 17:28:34,105 INFO Outer F1 (weighted): 0.9602272727272727
+2026-01-12 17:28:34,105 INFO By-class accuracies:
+2026-01-12 17:28:34,105 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:28:34,105 INFO   Class B.1: Accuracy=0.8462
+2026-01-12 17:28:34,106 INFO   Class B.2: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class B.4: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class C: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class D.1: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class E.1: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class F: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO   Class J.1: Accuracy=1.0000
+2026-01-12 17:28:34,106 INFO Classification Report:
+2026-01-12 17:28:34,106 INFO {'A.1': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 2.0}, 'B.1': {'precision': 1.0, 'recall': 0.8461538461538461, 'f1-score': 0.9166666666666666, 'support': 13.0}, 'B.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'B.4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'C': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'D.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'E.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 9.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'F': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'J.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'accuracy': 0.9545454545454546, 'macro avg': {'precision': 0.95, 'recall': 0.9846153846153847, 'f1-score': 0.9583333333333333, 'support': 44.0}, 'weighted avg': {'precision': 0.9772727272727273, 'recall': 0.9545454545454546, 'f1-score': 0.9602272727272727, 'support': 44.0}}
+2026-01-12 17:28:34,106 INFO ############ One outer Done ############
+2026-01-12 17:28:34,107 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,107 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,109 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,109 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,111 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,111 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,113 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,113 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,115 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,115 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,117 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,117 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,119 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,119 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,121 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,121 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,123 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,123 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,125 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,125 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,127 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,127 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,129 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,129 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,131 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,131 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,133 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,133 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,136 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,136 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,139 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,139 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,141 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,141 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,143 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,143 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,145 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,145 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,147 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,147 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,149 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,149 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,151 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,151 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,153 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,153 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,155 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,155 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,157 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,157 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,159 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,159 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,161 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,161 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,163 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,163 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,166 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,166 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,168 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,168 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,171 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,171 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,173 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,173 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,175 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,175 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,177 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,177 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,179 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,179 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,181 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,181 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,183 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,183 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,185 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,185 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,187 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,187 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,189 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,189 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,191 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,191 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,193 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,193 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,195 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,195 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,197 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,197 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,200 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,200 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,203 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,203 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,205 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,205 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,207 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,207 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,209 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,209 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,211 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,211 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,213 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,213 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,215 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,215 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,217 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,217 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,219 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,219 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,221 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,221 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,223 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,223 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,225 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,225 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,227 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,227 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,229 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,229 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,232 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,232 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,235 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,235 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,237 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,237 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,239 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,239 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,241 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,241 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,243 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,243 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,245 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,245 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,247 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,247 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,249 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,249 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,251 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,251 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,253 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,253 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,255 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,255 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,257 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,257 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,259 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,259 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,262 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,262 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,264 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,264 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,267 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:28:34,267 INFO ############ One inner CV Done ############
+2026-01-12 17:28:34,267 INFO Best params : {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,267 INFO Best inner score : 0.9568321973385265
+2026-01-12 17:28:34,274 INFO Outer accuracy: 0.9772727272727273
+2026-01-12 17:28:34,274 INFO Outer F1 (macro): 0.980952380952381
+2026-01-12 17:28:34,274 INFO Outer F1 (weighted): 0.9761904761904762
+2026-01-12 17:28:34,274 INFO By-class accuracies:
+2026-01-12 17:28:34,274 INFO   Class A.1: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class B.1: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class B.2: Accuracy=0.7500
+2026-01-12 17:28:34,274 INFO   Class B.4: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class C: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class D.1: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class E.1: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class F: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO   Class J.1: Accuracy=1.0000
+2026-01-12 17:28:34,274 INFO Classification Report:
+2026-01-12 17:28:34,274 INFO {'A.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'B.1': {'precision': 0.9090909090909091, 'recall': 1.0, 'f1-score': 0.9523809523809523, 'support': 10.0}, 'B.2': {'precision': 1.0, 'recall': 0.75, 'f1-score': 0.8571428571428571, 'support': 4.0}, 'B.4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'C': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, 'D.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, 'E.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'F': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'J.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'accuracy': 0.9772727272727273, 'macro avg': {'precision': 0.990909090909091, 'recall': 0.975, 'f1-score': 0.980952380952381, 'support': 44.0}, 'weighted avg': {'precision': 0.9793388429752067, 'recall': 0.9772727272727273, 'f1-score': 0.9761904761904762, 'support': 44.0}}
+2026-01-12 17:28:34,274 INFO ############ One outer Done ############
+2026-01-12 17:28:34,275 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,275 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,277 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,277 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,279 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,279 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,281 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,281 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,283 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,283 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,285 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,285 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,287 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,287 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,289 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,289 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,291 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,291 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,293 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,293 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,295 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,295 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,297 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,297 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,299 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,299 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,301 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,301 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,306 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,306 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,313 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,313 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,315 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,315 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,317 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,317 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,319 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,319 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,321 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,321 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,323 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,324 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,326 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,326 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,327 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,327 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,329 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,329 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,331 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,331 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,333 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,333 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,335 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,335 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,337 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,337 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,340 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,340 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,342 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,342 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,345 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,345 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,347 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,347 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,349 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,349 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,351 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,351 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,353 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,353 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,355 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,355 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,357 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,357 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,359 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,359 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,360 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,360 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,362 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,362 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,364 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,364 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,366 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,367 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,369 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,369 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,371 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,371 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,373 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,373 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,376 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,376 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,378 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,378 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,380 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,380 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,382 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,382 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,384 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,384 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,386 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,386 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,388 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,388 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,390 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,390 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,392 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,392 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,394 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,394 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,396 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,396 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,398 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,398 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,400 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,400 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,402 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,402 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,405 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,405 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,408 INFO Setting params: {'C': 1e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,408 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,410 INFO Setting params: {'C': 5.1794746792312125e-05, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,410 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,412 INFO Setting params: {'C': 0.0002682695795279727, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,412 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,414 INFO Setting params: {'C': 0.0013894954943731374, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,414 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,416 INFO Setting params: {'C': 0.0071968567300115215, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,416 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,418 INFO Setting params: {'C': 0.037275937203149416, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,418 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,420 INFO Setting params: {'C': 0.19306977288832497, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,420 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,422 INFO Setting params: {'C': 1.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,422 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,424 INFO Setting params: {'C': 5.1794746792312125, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,424 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,426 INFO Setting params: {'C': 26.826957952797272, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,426 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,428 INFO Setting params: {'C': 138.9495494373139, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,428 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,430 INFO Setting params: {'C': 719.6856730011528, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,430 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,432 INFO Setting params: {'C': 3727.593720314938, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,432 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,434 INFO Setting params: {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,434 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,437 INFO Setting params: {'C': 100000.0, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,437 INFO Params set successfully. GK created: True
+2026-01-12 17:28:34,440 INFO ############ All params Done for one inner cut ############
+2026-01-12 17:28:34,440 INFO ############ One inner CV Done ############
+2026-01-12 17:28:34,440 INFO Best params : {'C': 19306.977288832535, 'kernel_params': [{'name': 'graph_hopper', 'kernel_type': 'linear'}], 'normalize': True}
+2026-01-12 17:28:34,440 INFO Best inner score : 0.9493346316131127
+2026-01-12 17:28:34,447 INFO Outer accuracy: 0.9090909090909091
+2026-01-12 17:28:34,448 INFO Outer F1 (macro): 0.8464458247066944
+2026-01-12 17:28:34,448 INFO Outer F1 (weighted): 0.9115691072212811
+2026-01-12 17:28:34,448 INFO By-class accuracies:
+2026-01-12 17:28:34,448 INFO   Class A.1: Accuracy=0.3333
+2026-01-12 17:28:34,448 INFO   Class B.1: Accuracy=0.9091
+2026-01-12 17:28:34,448 INFO   Class B.2: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class B.4: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class C: Accuracy=0.8000
+2026-01-12 17:28:34,448 INFO   Class D.1: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class E.1: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class E.2: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class F: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO   Class J.1: Accuracy=1.0000
+2026-01-12 17:28:34,448 INFO Classification Report:
+2026-01-12 17:28:34,448 INFO {'A.1': {'precision': 1.0, 'recall': 0.3333333333333333, 'f1-score': 0.5, 'support': 3.0}, 'B.1': {'precision': 1.0, 'recall': 0.9090909090909091, 'f1-score': 0.9523809523809523, 'support': 11.0}, 'B.2': {'precision': 0.3333333333333333, 'recall': 1.0, 'f1-score': 0.5, 'support': 1.0}, 'B.4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, 'C': {'precision': 1.0, 'recall': 0.8, 'f1-score': 0.8888888888888888, 'support': 5.0}, 'D.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, 'E.1': {'precision': 0.9166666666666666, 'recall': 1.0, 'f1-score': 0.9565217391304348, 'support': 11.0}, 'E.2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'F': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1.0}, 'J.1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, 'accuracy': 0.9090909090909091, 'macro avg': {'precision': 0.875, 'recall': 0.9042424242424243, 'f1-score': 0.8464458247066944, 'support': 44.0}, 'weighted avg': {'precision': 0.9526515151515151, 'recall': 0.9090909090909091, 'f1-score': 0.9115691072212811, 'support': 44.0}}
+2026-01-12 17:28:34,448 INFO ############ One outer Done ############
+2026-01-12 17:28:34,448 INFO Nested mean accuracy: 0.9636363636363636
+2026-01-12 17:28:34,448 INFO Nested std accuracy: 0.03082877265056941
+2026-01-12 17:28:34,448 INFO Nested mean F1 (macro): 0.9525287031808771
+2026-01-12 17:28:34,448 INFO Nested std F1 (macro): 0.05466853638825228
+2026-01-12 17:28:34,448 INFO Nested mean F1 (weighted): 0.9651240667545015
+2026-01-12 17:28:34,448 INFO Nested std F1 (weighted): 0.029622267909254055

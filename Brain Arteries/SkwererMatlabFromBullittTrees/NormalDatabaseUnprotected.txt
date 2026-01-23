@@ -1,0 +1,163 @@
+NORMAL DATABASE SCANNED AT 0.5 x 0.5 x 0.8
+
+18-29		30-39		40-49		50-59		60+   				
+M	11		10		10		11	            10 (2 M->F) (+1)
+F	11 		10 		10 (+1) 	11 		11 (+2)
+
+Most Flash images have artifacts close to base. 
+		T1		T2	DTI	trees
+NormalA001  	No rage			+++		54	F	W	R	
+NormalA002 	No rage 			+++		25	M	W	R
+NormalA003  	No rage 			+++		20	F	W	R
+NormalA004  	No rage 			+++		27	F	W	R	mild suture assym
+NormalA005	No rage	 		++++		24	F	A	R
+NormalA006	No rage 			+++		22	M	W	R
+NormalA007	No rage;			+++		36	M	W	R
+NormalA008	No rage;	moved		+++		33	F	W	R
+NormalA009	No rage; 		cut	+++		23	F	W	R
+NormalA010	No rage; 	moved		+++		41	M	W	R
+
+NormalA011	No rage; 			+++		27	F	W	R
+NormalA012	No rage, 		cut	+++		28	M	W	R
+NormalA013	No rage, 	moved 		+++		26	M	A	L	split circ
+NormalA014	No rage, 			++		19	M	W	L	
+NormalA015	No rage, 			+++		29	M	W	L
+NormalA016	No rage, 	no 	 no       ++++		55	M	W	R	Missing T2, DTI
+NormalA017	No rage, 		cut	+++		40	F	W	R	split circ
+NormalA018	No rage ;			+++		43	F	W	R
+NormalA019	No rage,  		cut	+++		28	M	A	R
+NormalA020	No rage, 		cut	++++		26	F	A	R	split circ
+
+NormalA021	No rage, 		cut	+++		26	M	W	R
+NormalA022	No rage, 		cut	+++		39	F	W	R
+NormalA023	No rage,			+++		40	F	W	R
+NormalA024	No rage, 			++		57	F	W	R	split circ
+NormalA025	No rage, 		cut	+++		49	M	W	R	split circ
+NormalA026	No rage, 		cut	+++		26	M	W	R
+NormalA027	No rage, 	moved 		++++		48	F	W	R
+NormalA028			moved		+++		66	F	W	R
+NormalA029	No rage, 	moved 		++		72	M	W	L (Ambidextrous)
+NormalA030					+++		57	M	W	R	split circ
+
+NormalA031				cut	+++		50	F	W	R			
+NormalA032	No rage, 	moved 		++		66	F	W	R
+NormalA033				cut	+++		23	F	W	R	split circ
+NormalA034			moved		+++		23	M	W	R			
+NormalA035				(cut)	+++		25	M	W	L (Ambidextrous)
+NormalA036					++		65	F	W	R	
+NormalA037			(moved)(cut)	+++		31	M	W	R
+NormalA038				(cut)	+++		32	F	B	R
+NormalA039			(moved)	++		41	M	W	L
+NormalA040					+++		25	F	W	R
+		T1		T2	DTI	MRA
+
+NormalA041			moved		++		64	M->F	A	R
+NormalA042					++++		37	F	W	R
+NormalA043					++++		24	F	W	R
+NormalA044			moved,		++		48	M	W	R
+NormalA045			(moved)	+++		35	M	W	R
+NormalA046					+++		61	M->F	W	R
+NormalA047				(cut)	+++		31	F	W	R
+NormalA048			(moved)	++		47	F	B	R	marked suture asymm; 	don’t use unless really needed
+NormalA049			moved	(cut)	++++		65	F	A	R	split circ
+NormalA050					++++		28	F	A	R
+
+NormalA051					++++		55	F	W	R
+NormalA052					+++		44	F	A	R	ethmoid polyp
+NormalA053			moved	cut	+++		37	M	W	R
+NormalA054			moved	cut	+++		34	F	W	R
+NormalA055					+++		30	M	B	R
+NormalA056				cut	++		44	M	W	R 
+NormalA057					++++		33	M	W	R	split circ
+NormalA058					+++		47	M	W	R	split circ
+NormalA059					+++		33	M	A	R
+NormalA060					++		48	F	W	R
+
+NormalA061					+++		57	F	W	R
+NormalA062					+++		33	F	B	R
+NormalA063					+++		43	M	W	R	acoustic, split circ
+NormalA064			moved		++		35	F	W	R
+NormalA065					+++		43	F	W	L
+NormalA066					+++		66	F	W	R		
+NormalA067					+++		57	F	W	R	split circ
+NormalA068			(moved)	+++		56	M	W	R
+NormalA069			moved	   no	+++		65	F	W	R	Missing DTI
+NormalA070	No rage	(moved)	+++		48	F	W	R	scalp cyst
+
+NormalA071					+++		32	F	W	R
+NormalA072	No rage	(moved)	+++		52	F	W	R
+NormalA073 	No rage			++		64	F	W	R
+NormalA074			(moved)	++++		41	F	W	R	assym sag sinus
+NormalA075	No flash			+++		61	F	W	R
+NormalA076	No flash	(moved)	++		58	M	W	R
+NormalA077					++++		35	F	W	R
+NormalA078	No flash	no		++		49	F	W	L	Missing T2
+NormalA079					+++		31	M	W	R
+ 
+NormalA080					+++		34	M	W	R
+NormalA081	(no artifacts!!)			+++++		51	M	W	R
+NormalA082	(no artifacts!)			+++++		22	F	W	R
+NormalA083    artifact flash			+++		51	F	W	R
+NormalA084    no flash			++		67	M	W	A  Waldenstrom’s
+	Probably should not use
+NormalA085					++		52	F	W	R	split circ
+NormalA086					++		46	M	W	R
+NormalA087				noDTI	++++		57	F	W	R	Missing DTI
+NormalA088					+++++		34	M	W	R	suture assym
+NormalA089					++(clip)	44	M	W	R
+NormalA090					++++		57	F	W	R
+
+NormalA091    no rage		noDTI ++(clip, move)	56	M	B	R	split circ, missing DTI
+NormalA092	 no rage			++(clip)	60	M	W	R	split circ
+NormalA093	no rage				+++(clip)	43	M	W	R
+NormalA094					+++(clip)	50	M	W	R
+NormalA095					+++		59	M	W	L	tiny cyst
+			NEW MRA SEQUENCE BEGINS HERE
+NormalA096	no flash			+++		68	F	W	R
+NormalA097	no flash			+++		68	M	W	R
+NormalA098	no flash			++		64	F	W	R     Probably should not use; unexpected history of hypercholesterolemia
+NormalA099	no flash			++		63	M	W	A
+NormalA100	no flash			++++		61	M	W	R
+
+NormalA101							62	F	W	R	Major lacune R occip. Probably should not use?
+NormalA102	no flash			++		54	M	W	R
+NormalA103	no flash			++++		60	F	W	R
+NormalA104	no flash			++		73	F	W	R  
+NormalA105	no flash			+++		79	M	W	R 
+NormalA106	no flash			+++		63	M	W	L 
+NormalA107	no flash			++++		68	M	W	R 
+NormalA108	no flash			+++		58	M 	W	R 
+NormalA109	no flash			+++		52	M	W	R
+
+
+------------------------------------------------------------
+ABNORMALS (Red means probably should omit)
+Tumor 069		penetrating brain injury. Removed from normal study.
+Normal 052		ethmoid polyp. Retained as normal in normal study. Told to make ENT appointment.
+Normal 048		Asymmetrical head from suture closure. Retained as normal in study as other subjects 
+			have similar but lesser abnormalities, but for some purposes could be viewed as
+			abnormal. Ventricles are also large and subject has intermittent headaches. Told to 
+			make elective appointment if headaches worsen.
+Normal 063		tiny intracanalicular acoustic tumor visible only as CSF filling defect in canal.
+			Retained as normal in study as brain not affected.
+Normal070		Epidermoid cyst (scalp)
+Normal084		Waldenstron’s macroglobulinemia. Probably should not use. 
+Normal098		History hypercholestorelemia + lacunes. Probably should not use. 	
+Normal101		Major lacune R occip. It is hard to tell what should be allowed and what not. Probably 			do not use?
+
+	
+
+-----------------------------------------------------------
+
+-----------------------------------------
+Genetic Relationships
+	Normal024 is mother of Normal004	
+	Normal049 is mother of Normal059
+	Tumor069 (old trauma) is sister of Normal024
+Normal041 is sister of Normal066
+	Normal067 is mother of Normal047
+	Normal068 is father of Normal047
+Normal073 is mother of Normal042
+Normal069 is mother of Normal074
+
+

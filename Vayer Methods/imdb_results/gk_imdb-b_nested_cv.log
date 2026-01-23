@@ -1,0 +1,199 @@
+2025-11-30 19:29:24,604 INFO ############ Begin nested CV ############
+2025-11-30 19:29:24,604 INFO Inner : 10
+2025-11-30 19:29:24,604 INFO Outer : 10
+2025-11-30 19:29:24,604 INFO params : [{'C': [1e-05, 5.1794746792312125e-05, 0.0002682695795279727, 0.0013894954943731374, 0.0071968567300115215, 0.037275937203149416, 0.19306977288832497, 1.0, 5.1794746792312125, 26.826957952797272, 138.9495494373139, 719.6856730011528, 3727.593720314938, 19306.977288832535, 100000.0], 'kernel_params': [[{'name': 'graphlet_sampling', 'k': 3, 'sampling': {'delta': 0.1, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 3, 'sampling': {'delta': 0.05, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 3, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], [{'name': 'graphlet_sampling', 'k': 3, 'sampling': {'delta': 0.1, 'epsilon': 0.05}}], [{'name': 'graphlet_sampling', 'k': 4, 'sampling': {'delta': 0.1, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 4, 'sampling': {'delta': 0.05, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 4, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], [{'name': 'graphlet_sampling', 'k': 4, 'sampling': {'delta': 0.1, 'epsilon': 0.05}}], [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.1, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.1}}], [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.1, 'epsilon': 0.05}}]], 'normalize': [True]}]
+2025-11-30 19:29:24,604 INFO Begin precomputing all Gram matrices
+2025-11-30 19:29:24,604 INFO 12 matrices to fit...
+2025-11-30 20:40:20,939 INFO ...Done
+2025-11-30 20:41:33,943 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:42:46,909 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:44:00,035 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:45:17,469 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:46:41,959 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:47:46,043 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:48:57,468 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:50:04,145 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:51:12,262 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:52:28,808 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:52:28,808 INFO ############ One inner CV Done ############
+2025-11-30 20:52:28,809 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 20:52:28,809 INFO Best inner score : 0.6866666666666668
+2025-11-30 20:52:28,819 INFO Outer accuracy 0.59
+2025-11-30 20:52:28,819 INFO Outer F1 weighted 0.5845201487287709
+2025-11-30 20:52:28,819 INFO By-class accuracies:
+2025-11-30 20:52:28,819 INFO   Class 0: Accuracy=0.7500
+2025-11-30 20:52:28,819 INFO   Class 1: Accuracy=0.4643
+2025-11-30 20:52:28,819 INFO ############ One outer Done ############
+2025-11-30 20:53:45,165 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:55:00,219 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:56:21,661 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:57:34,290 INFO ############ All params Done for one inner cut ############
+2025-11-30 20:58:45,520 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:00:03,589 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:01:09,161 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:02:25,159 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:03:41,408 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:04:50,936 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:04:50,936 INFO ############ One inner CV Done ############
+2025-11-30 21:04:50,936 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 21:04:50,936 INFO Best inner score : 0.6799999999999999
+2025-11-30 21:04:50,953 INFO Outer accuracy 0.64
+2025-11-30 21:04:50,953 INFO Outer F1 weighted 0.6408671216378964
+2025-11-30 21:04:50,953 INFO By-class accuracies:
+2025-11-30 21:04:50,953 INFO   Class 0: Accuracy=0.6444
+2025-11-30 21:04:50,953 INFO   Class 1: Accuracy=0.6364
+2025-11-30 21:04:50,953 INFO ############ One outer Done ############
+2025-11-30 21:06:09,157 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:07:36,490 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:08:59,078 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:10:02,547 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:11:16,796 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:12:23,385 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:13:37,181 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:14:55,830 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:16:05,911 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:17:20,901 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:17:20,901 INFO ############ One inner CV Done ############
+2025-11-30 21:17:20,902 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 21:17:20,902 INFO Best inner score : 0.6711111111111112
+2025-11-30 21:17:20,911 INFO Outer accuracy 0.65
+2025-11-30 21:17:20,912 INFO Outer F1 weighted 0.6492613807657522
+2025-11-30 21:17:20,912 INFO By-class accuracies:
+2025-11-30 21:17:20,912 INFO   Class 0: Accuracy=0.6923
+2025-11-30 21:17:20,912 INFO   Class 1: Accuracy=0.6042
+2025-11-30 21:17:20,912 INFO ############ One outer Done ############
+2025-11-30 21:18:52,874 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:20:10,316 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:21:22,845 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:22:31,211 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:23:49,415 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:25:04,763 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:26:14,575 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:27:27,511 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:28:38,591 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:29:54,101 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:29:54,101 INFO ############ One inner CV Done ############
+2025-11-30 21:29:54,102 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 21:29:54,102 INFO Best inner score : 0.6733333333333335
+2025-11-30 21:29:54,113 INFO Outer accuracy 0.62
+2025-11-30 21:29:54,113 INFO Outer F1 weighted 0.608768472906404
+2025-11-30 21:29:54,113 INFO By-class accuracies:
+2025-11-30 21:29:54,113 INFO   Class 0: Accuracy=0.7959
+2025-11-30 21:29:54,113 INFO   Class 1: Accuracy=0.4510
+2025-11-30 21:29:54,113 INFO ############ One outer Done ############
+2025-11-30 21:31:10,630 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:32:23,279 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:33:44,320 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:34:52,052 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:35:58,430 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:37:18,464 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:38:28,074 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:39:38,331 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:40:51,932 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:41:54,956 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:41:54,956 INFO ############ One inner CV Done ############
+2025-11-30 21:41:54,956 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 21:41:54,956 INFO Best inner score : 0.6811111111111112
+2025-11-30 21:41:54,973 INFO Outer accuracy 0.67
+2025-11-30 21:41:54,973 INFO Outer F1 weighted 0.6700990891802623
+2025-11-30 21:41:54,973 INFO By-class accuracies:
+2025-11-30 21:41:54,973 INFO   Class 0: Accuracy=0.6731
+2025-11-30 21:41:54,973 INFO   Class 1: Accuracy=0.6667
+2025-11-30 21:41:54,973 INFO ############ One outer Done ############
+2025-11-30 21:43:09,438 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:44:29,534 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:45:42,722 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:46:54,465 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:48:04,303 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:49:16,981 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:50:30,594 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:51:52,972 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:53:07,983 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:54:21,197 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:54:21,197 INFO ############ One inner CV Done ############
+2025-11-30 21:54:21,198 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 21:54:21,198 INFO Best inner score : 0.6777777777777778
+2025-11-30 21:54:21,208 INFO Outer accuracy 0.65
+2025-11-30 21:54:21,208 INFO Outer F1 weighted 0.6501750175017503
+2025-11-30 21:54:21,208 INFO By-class accuracies:
+2025-11-30 21:54:21,208 INFO   Class 0: Accuracy=0.6809
+2025-11-30 21:54:21,208 INFO   Class 1: Accuracy=0.6226
+2025-11-30 21:54:21,208 INFO ############ One outer Done ############
+2025-11-30 21:55:34,434 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:56:40,771 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:57:46,425 INFO ############ All params Done for one inner cut ############
+2025-11-30 21:58:51,626 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:00:01,093 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:01:19,115 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:02:34,382 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:03:39,180 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:04:51,517 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:06:01,966 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:06:01,966 INFO ############ One inner CV Done ############
+2025-11-30 22:06:01,967 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 22:06:01,967 INFO Best inner score : 0.6733333333333333
+2025-11-30 22:06:01,976 INFO Outer accuracy 0.62
+2025-11-30 22:06:01,976 INFO Outer F1 weighted 0.6204561824729892
+2025-11-30 22:06:01,976 INFO By-class accuracies:
+2025-11-30 22:06:01,976 INFO   Class 0: Accuracy=0.6522
+2025-11-30 22:06:01,976 INFO   Class 1: Accuracy=0.5926
+2025-11-30 22:06:01,976 INFO ############ One outer Done ############
+2025-11-30 22:07:13,375 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:08:24,097 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:09:35,273 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:10:53,526 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:12:21,023 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:13:42,342 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:15:00,797 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:16:16,418 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:17:22,573 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:18:44,619 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:18:44,620 INFO ############ One inner CV Done ############
+2025-11-30 22:18:44,620 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 22:18:44,620 INFO Best inner score : 0.6722222222222222
+2025-11-30 22:18:44,630 INFO Outer accuracy 0.61
+2025-11-30 22:18:44,630 INFO Outer F1 weighted 0.6074214220323467
+2025-11-30 22:18:44,630 INFO By-class accuracies:
+2025-11-30 22:18:44,630 INFO   Class 0: Accuracy=0.6852
+2025-11-30 22:18:44,630 INFO   Class 1: Accuracy=0.5217
+2025-11-30 22:18:44,630 INFO ############ One outer Done ############
+2025-11-30 22:19:53,862 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:21:11,332 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:22:27,831 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:23:35,467 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:25:09,444 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:26:23,325 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:27:37,751 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:28:56,361 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:30:02,036 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:31:09,492 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:31:09,492 INFO ############ One inner CV Done ############
+2025-11-30 22:31:09,493 INFO Best params : {'C': 138.9495494373139, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 22:31:09,493 INFO Best inner score : 0.6633333333333333
+2025-11-30 22:31:09,509 INFO Outer accuracy 0.7
+2025-11-30 22:31:09,509 INFO Outer F1 weighted 0.7009615384615384
+2025-11-30 22:31:09,509 INFO By-class accuracies:
+2025-11-30 22:31:09,509 INFO   Class 0: Accuracy=0.7500
+2025-11-30 22:31:09,509 INFO   Class 1: Accuracy=0.6607
+2025-11-30 22:31:09,509 INFO ############ One outer Done ############
+2025-11-30 22:32:29,568 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:33:41,629 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:34:51,005 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:36:02,166 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:37:14,557 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:38:25,516 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:39:29,769 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:40:52,120 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:41:59,626 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:43:16,123 INFO ############ All params Done for one inner cut ############
+2025-11-30 22:43:16,123 INFO ############ One inner CV Done ############
+2025-11-30 22:43:16,124 INFO Best params : {'C': 26.826957952797272, 'kernel_params': [{'name': 'graphlet_sampling', 'k': 5, 'sampling': {'delta': 0.05, 'epsilon': 0.05}}], 'normalize': True}
+2025-11-30 22:43:16,124 INFO Best inner score : 0.6611111111111112
+2025-11-30 22:43:16,134 INFO Outer accuracy 0.66
+2025-11-30 22:43:16,134 INFO Outer F1 weighted 0.6550324675324676
+2025-11-30 22:43:16,134 INFO By-class accuracies:
+2025-11-30 22:43:16,134 INFO   Class 0: Accuracy=0.7800
+2025-11-30 22:43:16,134 INFO   Class 1: Accuracy=0.5400
+2025-11-30 22:43:16,134 INFO ############ One outer Done ############
+2025-11-30 22:43:16,134 INFO Nested mean score 0.641
+2025-11-30 22:43:16,134 INFO Nested std score 0.030479501308256347
